@@ -1,0 +1,33 @@
+.carousel_container{
+    align-items: center;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    cursor:grab;
+}
+.carousel_container > button{
+    border-radius: 20px;
+}
+.image{
+    border-radius: 20px;
+    width: 500px;
+    transition: all 0.5s ease-in-out;
+}
+.image:hover{
+    transform: scale(1.2);
+    opacity: 0.7;
+    width: 400px;
+    
+}
+@media screen and (max-width: 480px){
+    .carousel_container{
+        width: 340px;
+        margin-right: 6px;
+    }
+    .image{
+        border-radius: 20px;
+        margin-right: 28px;
+        width: 250px;
+        transition: all 0.5s ease-in-out;
+    }
+}

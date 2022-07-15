@@ -1,0 +1,26 @@
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    margin-top: -38rem;
+    text-align: center;
+
+  }
+  .about span:nth-of-type(1){
+      color:var(--black);
+      font-size: 2rem;
+      font-weight: bold;
+  }
+  .about span:nth-of-type(2){
+    color:var(--gray);
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  @media screen and (max-width: 480px){
+    .about{
+      margin-top:100px;
+      gap:2px;
+    }
+  }

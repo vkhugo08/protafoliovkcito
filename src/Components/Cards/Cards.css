@@ -1,0 +1,63 @@
+.services_cards{
+    position: relative;
+}
+.services_cards > *{
+    position: absolute;
+}
+.card{
+    width: 13rem;
+    height: 8rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.24);
+}
+.card > :nth-child(1){
+    transform: scale(3);
+    padding-right: 10px;
+}
+.fa-node{
+    color: green;
+    border:hidden;
+}
+.fa-react{
+    color: rgb(6, 190, 247);
+    border:hidden;
+}
+.fa-js{
+    color: rgb(247, 243, 6);
+    border:hidden;
+}
+.fa-html5{
+    color: rgb(243, 89, 28);
+    border:hidden;
+}
+.fa-css3-alt{
+    color: rgb(6, 82, 247);
+    border:hidden;
+}
+@media screen and (max-width: 480px){
+    .fa-node{
+        display: flex;
+        margin-top: 4rem;
+    }
+    .fa-react{
+        margin-left: 2rem;
+        margin-top: 3rem;
+    }
+    .fa-js{
+        margin-right: 9rem;
+        margin-top: auto;
+    }
+    .fa-html5{
+        margin-top: 2rem;
+        margin-right: 7rem;
+    }
+    .fa-css3-alt{
+        margin-right: 7rem ;
+        margin-top: 2rem;
+    }
+
+}
